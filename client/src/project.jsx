@@ -1,10 +1,19 @@
+/*
+File: project.jsx
+Student: Jordan Than
+ID: 301360824
+Date: 05/25/24
+*/
+import project1 from './images/project1.png';
+import project2 from './images/project2.png';
+import project3 from './images/project3.png';
 export default function Project() {
     return (
         <>
             <fieldset class="project">
                 <div class="container">
                     <div class="image">
-                        <img src="./src/images/project1.png"></img>
+                        <img src={project1} alt="project 1"></img>
                     </div>
                     <div class="text">
                         <h2>Web Interface Design Final Project</h2> 
@@ -25,7 +34,7 @@ export default function Project() {
                         As developers, we should not only focus on the code aspect but also the human part as well.</p>
                     </div>
                     <div class="image">
-                        <img src="./src/images/project2.png"></img>
+                        <img src={project2} alt="project 2"></img>
                     </div>
                 </div>    
             </fieldset>
@@ -33,11 +42,14 @@ export default function Project() {
             <fieldset class="project">
                 <div class="container">
                     <div class="image">
-                        <img src="./src/images/project1.png"></img>
+                        <img src={project3} alt="project 3"></img>
                     </div>
                     <div class="text">
-                        <h2>Web Interface Design Final Project</h2> 
-                        <p>I'm proud that this is one of the first websites I made alone. I implemented both the knowledge I learned throughout the course and online inspiration. The idea was to make a personalized website for real estate agents with listings, contacts, and a biography of the individual.</p>
+                        <h2>Personal Project</h2> 
+                        <p>I've been making a personal project for myself not related to school. 
+                        It's based on an anime I'm passionate about, so I made this website for it. 
+                        I've used what I have learned to help me create this project. 
+                        Each time I improve or add new code, it cements my learning and passion.</p>
                     </div>
                 </div>    
             </fieldset>

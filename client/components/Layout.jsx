@@ -1,3 +1,9 @@
+/*
+File: layout.jsx
+Student: Jordan Than
+ID: 301360824
+Date: 05/21/24
+*/
 import React from 'react';
 import { Link } from 'react-router-dom';
 export default function Layout() {
