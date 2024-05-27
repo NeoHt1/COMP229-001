@@ -6,12 +6,13 @@ Date: 05/21/24
 */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../src/images/logo.png';
 // Function for Layout of website
 export default function Layout() {
     return (
     <>
         <div id="left-layout">
-            <img src='./src/images/logo.png' alt='logo' height={75} width={75}></img> 
+            <img src={logo} alt='logo' height={75} width={75}></img> 
         </div>
         <h1>My Portfolio</h1>
         <nav>
