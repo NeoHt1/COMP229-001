@@ -4,6 +4,7 @@ Student: Jordan Than
 ID: 301360824
 Date: 05/25/24
 */
+// Import external media from files
 import oop from './images/oop.png';
 import code from './images/code.png';
 import websiteDesign from './images/website design.png';
@@ -13,6 +14,7 @@ import data from './images/d&a.jpg';
 import sql from './images/sql.png';
 import query from './images/query.png';
 import git from './images/git.png';
+// Function for Services page content
 export default function Services() {
     return (
         <>

@@ -4,9 +4,11 @@ Student: Jordan Than
 ID: 301360824
 Date: 05/21/24
 */
+// Import external media from files
 import pdfFile from './resume.pdf';
 import meImage from './images/me.jpg';
 import exResume from './images/example resume.png';
+// Function for About page content
 export default function About() {
     return (
         <>
@@ -25,6 +27,7 @@ export default function About() {
         </>
     );
 }    
+// Function for link to Resume pdf
 const PdfLink = () => {
     return (
         <div>

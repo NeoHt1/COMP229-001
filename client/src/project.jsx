@@ -4,9 +4,11 @@ Student: Jordan Than
 ID: 301360824
 Date: 05/25/24
 */
+// Import external media from files
 import project1 from './images/project1.png';
 import project2 from './images/project2.png';
 import project3 from './images/project3.png';
+// Function for Project page content
 export default function Project() {
     return (
         <>
