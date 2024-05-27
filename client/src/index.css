@@ -43,6 +43,7 @@ p {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-top: 20px;
 }
 h2 {
   font-size: 2em;
@@ -89,7 +90,7 @@ nav {
 /* Layout Div Section */
 #left-layout {
   float: left;
-  margin: 50px 20px 0 0;
+  margin: 20px 20px;
 }
 #left-about {
   float: left;
